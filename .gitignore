@@ -5,8 +5,7 @@
 !*.gitignore
 !*Pipfile
 !*Pipfile.lock
-!*/templates/
-!*/templates/**
+!/templates/
 !*.html
-!*/static/
-!*/static/**
+!/static/
+!*.css

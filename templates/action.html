@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Enter Enigma Settings</title>
+        <link rel="stylesheet" type="text/css" href="/static/sinister.css">
+    </head>
+    <body>
+        <h1>Enter Enigma Machine Configuration</h1>
+        <p>Input the JSON configuration below and press "Send" to encrypt the message.</p>
+        <form action="/encrypt/" method="post">
+            <label for="config">JSON Config:</label>
+            <textarea id="config" name="config" rows="10" cols="50">
+{
+    "message": "hello",
+    "r1": 0,
+    "r2": 0,
+    "r3": 0,
+    "plugboard": "A:A / C:C / E:E"
+}
+            </textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
+    </body>
+</html>
