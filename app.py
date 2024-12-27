@@ -3,7 +3,7 @@ from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 import json
-from constants import *
+from constants import ref, rot1, rot2, rot3
 from reflect import Reflector
 from plug import Plugboard
 from rot import Rotor
