@@ -9,3 +9,4 @@
 !*.html
 !/static/
 !*.css
+!/project_files/

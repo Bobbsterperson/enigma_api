@@ -1,4 +1,4 @@
-from constants import alphabet
+from project_files.constants import alphabet
 
 class Rotor:
     def __init__(self, wiring, notch, ring_setting=0):

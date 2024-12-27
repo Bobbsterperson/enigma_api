@@ -3,11 +3,12 @@ from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 import json
-from constants import ref, rot1, rot2, rot3, rot4, rot5
-from reflect import Reflector
-from plug import Plugboard
-from rot import Rotor
-from enigma import EnigmaMachine
+from project_files.constants import ref, rot1, rot2, rot3, rot4, rot5
+from project_files.reflect import Reflector
+from project_files.plug import Plugboard
+from project_files.rot import Rotor
+from project_files.enigma import EnigmaMachine
+
 
 app = FastAPI()
 
