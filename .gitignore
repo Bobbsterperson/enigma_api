@@ -1,0 +1,9 @@
+*
+
+!*.py
+!*.md
+!*.gitignore
+!*Pipfile
+!*Pipfile.lock
+!*/templates/
+!*.html
